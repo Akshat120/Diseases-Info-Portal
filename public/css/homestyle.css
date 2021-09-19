@@ -1,0 +1,14 @@
+.container{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .news{
+    width: 80%;
+    font-weight: 300;
+}
+.news-head{
+    font-size: 20px;
+}
