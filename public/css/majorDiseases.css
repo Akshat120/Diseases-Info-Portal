@@ -1,0 +1,33 @@
+.container{
+    margin: 20px;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-around; */
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+    width: 30%;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+.Head{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    border-bottom: 2px solid orange;
+    background-color: rgb(255, 238, 206);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.content{
+    padding: 10px;
+    font-weight: 300;
+}
+.Head a{
+    color:inherit;
+    text-decoration: none;
+}
+.Head a:hover{
+    color:rgb(114, 79, 14);
+}

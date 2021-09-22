@@ -1,0 +1,23 @@
+<%- include('includes/header') %>
+<link rel="stylesheet" href="/css/navstyle.css">
+<link rel="stylesheet" href="/css/majorDiseases.css">
+</head>
+<body>
+
+<%- include('includes/navbar') %>
+
+<div class="container">
+    <% for(var i=0;i<data.length;i++){ %>
+        <div class="card">
+            <div class="Head">
+               <a href="/diseaseprofile/<%= data[i]._id %>"><%= data[i].name %></a> 
+            </div>
+            <div class="content">
+                <%= data[i].shortinfo %>
+            </div>
+        </div>
+    <% } %>
+</div>
+
+
+<%- include('includes/footer') %>

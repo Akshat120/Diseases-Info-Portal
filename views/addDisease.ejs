@@ -1,0 +1,16 @@
+<%- include('./includes/header') %>
+<link rel="stylesheet" href="/css/navstyle.css">
+<link rel="stylesheet" href="/css/formstyle.css">
+</head>
+<body>
+<%- include('./includes/navbar') %>
+
+<div class="form-container">
+    <form action="/addDisease" method="post">
+    <div class="form-control form-control-head"><div><input name="name" type="text" placeholder="Disease-Name"></div></div>
+    <div class="form-control"><textarea name="shortinfo" rows="5" placeholder="Disease-Shortinfo"></textarea></div>
+    <div class="form-control"><textarea name="longinfo"  rows="10" placeholder="Disease-Longinfo"></textarea></div>
+    <div class="form-control"><button>Submit</button></div>
+    </form>
+</div>
+<%- include('./includes/footer') %>
